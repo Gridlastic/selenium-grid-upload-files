@@ -16,9 +16,9 @@ import junit.framework.TestCase;
 public class selenium_grid_file_upload extends TestCase {
 	 private RemoteWebDriver driver;
 
-	 //NOTE: replace USERNAME:ACCESS_KEY@SUBDOMAIN and VIDEO_URL with your credentials found in the Gridlastic dashboard
+	 //NOTE: replace USERNAME:ACCESS_KEY@HUB_SUBDOMAIN and VIDEO_URL with your credentials found in the Gridlastic dashboard
 	 String VIDEO_URL = "";
-	 String HUB = "http://USERNAME:ACCESS_KEY@SUBDOMAIN.gridlastic.com/wd/hub";
+	 String HUB = "https://USERNAME:ACCESS_KEY@HUB_SUBDOMAIN.gridlastic.com/wd/hub";
 	 // PREPARE TEST BY DOWNLOADING https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png 
 	 
 	 public void setUp() throws Exception {
